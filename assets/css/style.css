@@ -1,3 +1,61 @@
 body {
-  background: red;
+  background: #0f0f0f;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Solway', serif;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 7.4rem 7rem;
+  position: fixed;
+  width: 100%;
+}
+
+.header .title {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  float: left;
+}
+
+.header .actions {
+  float: right;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer {
+  padding: 7.4rem 7rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .carousel-actions {
+  float: left;
+}
+
+.footer .socials {
+  float: right;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 30px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  background: white;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg) translate(0, -25%);
+  font-size: 20px;
+  font-weight: 600;
 }
