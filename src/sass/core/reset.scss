@@ -6,10 +6,13 @@
   outline: none;
   text-decoration: none;
   list-style: none;
-  font-family: "SF Mono Regular";
+  font-family: "SF Mono Regular", sans-serif;
   image-rendering: pixelated;
 }
 
 body {
-  background-color: #000000;
+  background-color: $primary-100;
+  background-image: url(@images/pattern_1.png);
+  background-blend-mode: overlay;
+  background-size: 100px;
 }
